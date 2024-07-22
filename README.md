@@ -11,6 +11,7 @@ Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
 - **FluentValidation**
 - **Kafka**
 - **Swagger**
+- **Mediator**
 
 ## Estrutura do Projeto
 
