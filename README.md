@@ -7,6 +7,8 @@ Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
 - **Unit of Work**
 - **Repositório Genérico**
 - **Swagger**
+- - **Fluent Validation**
+  - - **Arquitetura Onion**
 
 ## Estrutura do Projeto
 
