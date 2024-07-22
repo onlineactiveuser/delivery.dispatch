@@ -9,6 +9,7 @@ Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
 - **Swagger**
 - **Arquitetura Onion**
 - **FluentValidation**
+- **Entity framework core**
 
 ## Estrutura do Projeto
 
