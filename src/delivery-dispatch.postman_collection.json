@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "af8c0be8-7bd7-4fbe-8638-b8921dd445ad",
+		"name": "Delivery Dispatch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9700236"
+	},
+	"item": [
+		{
+			"name": "delivery-dispatch/api/v1/add-vehicle",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Access-Control-Allow-Origin",
+						"value": "*",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"identifier\": \"asd\",\r\n  \"year\": \"2021-01-01\",\r\n  \"model\": \"Honda Civic\",\r\n  \"plate\": \"XT12-Sw\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/delivery-dispatch/api/v1/add-vehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"delivery-dispatch",
+						"api",
+						"v1",
+						"add-vehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delivery-dispatch/api/v1/add-vehicle Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access-Control-Allow-Origin",
+						"value": "*",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/delivery-dispatch/api/v1/get-all-vehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"delivery-dispatch",
+						"api",
+						"v1",
+						"get-all-vehicle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
