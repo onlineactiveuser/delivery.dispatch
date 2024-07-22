@@ -10,6 +10,7 @@ Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
 - **Arquitetura Onion**
 - **FluentValidation**
 - **Entity framework core**
+-  **.Net 8.0**
 
 ## Estrutura do Projeto
 
