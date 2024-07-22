@@ -2,15 +2,15 @@
 
 Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
 
+- **.NET 8.0**
+- **Entity Framework Core**
 - **CQRS (Command Query Responsibility Segregation)**
-- **Kafka**
+- **Arquitetura Onion**
 - **Unit of Work**
 - **Repositório Genérico**
-- **Swagger**
-- **Arquitetura Onion**
 - **FluentValidation**
-- **Entity framework core**
--  **.Net 8.0**
+- **Kafka**
+- **Swagger**
 
 ## Estrutura do Projeto
 
