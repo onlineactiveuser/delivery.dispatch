@@ -1,12 +1,12 @@
-1. **Exportar a Collection do Postman**
-   - Exporte a coleção do Postman e salve-a dentro da pasta `delivery-dispatch.postman_collection.json`.
+# Projeto Delivery Dispatch
 
-2. **Subir a Aplicação com Docker Compose**
-   - Abra o CMD dentro da pasta do projeto e execute o seguinte comando:
-     docker-compose up
+Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
 
-3. **Diagrama da Arquitetura**
-   - Um diagrama da arquitetura está disponível na raiz do projeto. Ele foi criado no Draw.IO e pode ser usado para entender a estrutura do sistema.
+- **CQRS (Command Query Responsibility Segregation)**
+- **Kafka**
+- **Unit of Work**
+- **Repositório Genérico**
+- **Swagger**
 
 ## Estrutura do Projeto
 
@@ -16,18 +16,21 @@
 
 ## Pré-requisitos
 
-- Docker e Docker Compose instalados.
-- Postman para importação da coleção de APIs.
+Antes de iniciar, certifique-se de ter os seguintes itens instalados:
+
+- Docker e Docker Compose
+- Postman para importação da coleção de APIs
 
 ## Passos para Execução
 
-1. **Importar a Coleção do Postman**
-   - Abra o Postman e importe a coleção localizada em `delivery-dispatch.postman_collection.json`.
+### 1. Importar a Coleção do Postman
 
-2. **Subir a Aplicação**
-   - Navegue até a pasta do projeto no CMD.
-   - Execute o comando:
-     docker-compose up
+- Abra o Postman.
+- Importe a coleção localizada em `delivery-dispatch.postman_collection.json`.
 
-3. **Visualizar o Diagrama**
-   - Utilize o Draw.IO para abrir o arquivo `architecture-diagram.drawio` e visualizar o diagrama da arquitetura.
+### 2. Subir a Aplicação com Docker Compose
+
+- Navegue até a pasta do projeto no terminal.
+- Execute o comando:
+  ```sh
+  docker-compose up
