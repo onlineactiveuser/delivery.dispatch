@@ -1,11 +1,3 @@
-Este projeto utiliza as seguintes tecnologias e padrões arquiteturais:
-
-CQRS (Command Query Responsibility Segregation)
-Kafka
-Unit of Work
-Repositório Genérico
-Swagger
-
 1. **Exportar a Collection do Postman**
    - Exporte a coleção do Postman e salve-a dentro da pasta `delivery-dispatch.postman_collection.json`.
 
