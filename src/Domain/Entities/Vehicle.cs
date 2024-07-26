@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Domain.Entities
 {
     [Index(nameof(Plate), IsUnique = true)]
-    public sealed class Vehicle : AggregateRoot
+    public class Vehicle : AggregateRoot
     {
         public string Identifier { get; set; }
         public DateTime Year { get; set; }

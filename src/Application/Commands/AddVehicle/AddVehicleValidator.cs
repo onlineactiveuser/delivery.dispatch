@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Application.Commands.User
+namespace Application.Commands.AddVehicle
 {
     internal class AddVehicleValidator : AbstractValidator<AddVehicleCommand>
     {

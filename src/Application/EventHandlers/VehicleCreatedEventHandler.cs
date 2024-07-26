@@ -1,5 +1,5 @@
 ﻿using Data.Interfaces.MongoDb;
-using Domain.Abstraction.Messaging;
+using Domain.Abstraction.Events;
 using Domain.Events;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;

@@ -4,7 +4,7 @@ using Domain.Entities;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
-namespace Application.Commands.User
+namespace Application.Commands.AddVehicle
 {
     public class AddVehicleCommandHandler : ICommandHandler<AddVehicleCommand, bool>
     {
@@ -40,7 +40,7 @@ namespace Application.Commands.User
             }
             catch (Exception ex)
             {
-                _logger.LogError("Message: {0} StackTrace: {1}", ex.Message,ex.StackTrace);
+                _logger.LogError("Message: {0} StackTrace: {1}", ex.Message, ex.StackTrace);
                 throw;
             }
 

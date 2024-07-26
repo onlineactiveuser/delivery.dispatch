@@ -1,5 +1,5 @@
 ﻿using Application.Abstraction.Messaging;
-using Domain.Abstraction.Messaging;
+using Domain.Abstraction.Events;
 
 namespace Application.Interfaces
 {

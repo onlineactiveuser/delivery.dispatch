@@ -2,7 +2,7 @@
 using Application.Contracts.Requests.Vehicle;
 using System.ComponentModel.DataAnnotations;
 
-namespace Application.Commands.User
+namespace Application.Commands.AddVehicle
 {
     public class AddVehicleCommand : Command<bool>
     {

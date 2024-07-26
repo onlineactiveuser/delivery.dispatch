@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Domain.Abstraction.Messaging
+namespace Domain.Abstraction.Events
 {
     public interface IEvent : INotification
     {

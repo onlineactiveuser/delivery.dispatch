@@ -4,7 +4,7 @@ using Domain.Events;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Core.BackgroundWorker
+namespace Crosscutting.Services
 {
     public class BackgroundWorkerService : BackgroundService
     {

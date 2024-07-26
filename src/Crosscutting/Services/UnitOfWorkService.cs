@@ -2,7 +2,7 @@
 using Data.Context;
 using Data.Interfaces.PostgreDb;
 using Data.Repositories.PostgreDb;
-using Domain.Abstraction.Messaging;
+using Domain.Abstraction.Events;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 

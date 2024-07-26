@@ -1,4 +1,4 @@
-﻿using Domain.Abstraction.Messaging;
+﻿using Domain.Abstraction.Events;
 using Domain.Entities;
 
 namespace Domain.Events

@@ -1,4 +1,4 @@
-using Application.Commands.User;
+using Application.Commands.AddVehicle;
 using Application.Contracts.Requests.Vehicle;
 using Application.Queries;
 using Asp.Versioning;

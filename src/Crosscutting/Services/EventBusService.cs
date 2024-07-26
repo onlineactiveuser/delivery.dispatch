@@ -1,7 +1,7 @@
 ﻿using Application.Contracts.Settings;
 using Application.Interfaces;
 using Confluent.Kafka;
-using Domain.Abstraction.Messaging;
+using Domain.Abstraction.Events;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
